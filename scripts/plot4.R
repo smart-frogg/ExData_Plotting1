@@ -27,11 +27,10 @@ plot4 <- function(data = NA)
 		
 	plot(
 		data$Time,
-		data$SubMetering3,
+		data$SubMetering1,
 		type="n",
 		ylab = "Energy sub metering",
-		xlab="",
-		ylim = c(0,35))
+		xlab="")
 	lines(
 		data$Time,
 		data$SubMetering1,

@@ -24,7 +24,7 @@ load_dataset <- function()
 		header = FALSE,
 		na.strings = "?",  
 		nrows = 2880,
-        skip = 21997, 
+        skip = 66637, 
 		sep = ";",
         stringsAsFactors = FALSE,
 		col.names= c("Date","Time","GlobalActivePower","GlobalReactivePower","Voltage","GlobalIntensity","SubMetering1","SubMetering2","SubMetering3"),

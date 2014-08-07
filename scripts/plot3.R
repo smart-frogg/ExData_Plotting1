@@ -9,15 +9,13 @@ plot3 <- function(data = NA)
 	png("plot3.png")
 	par(mfrow=c(1,1))
 	
-	# Draw plot using SubMetering3 limitations	
 	plot(
 		data$Time,
-		data$SubMetering3,
+		data$SubMetering1,
 		type="n",
 		ylab = "Energy sub metering",
-		xlab="",
-		ylim = c(0,25))
-	# SubMetering1 (only zeros in data)
+		xlab="")
+	# SubMetering1 
 	lines(
 		data$Time,
 		data$SubMetering1,
